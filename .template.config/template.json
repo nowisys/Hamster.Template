@@ -1,0 +1,17 @@
+{
+  "author": "Frank Gabriel",
+  "classification": ["Library"],
+  "name": "Hamster Project",
+  "identity": "Hamster.Project",
+  "shortName": "hamster",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "Hamster.Template",
+  "preferNameDirectory": "true",
+  "sources": [
+    {
+      "exclude": [".git/**"]
+    }
+  ]
+}
