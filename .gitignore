@@ -1,9 +1,10 @@
 # Build results
-build/*
-obj/*
+build/
+obj/
 
 # VisualStudioCode
-.vscode/*
+.vscode/
+.vs/
 
 # User-specific files
 *.suo
