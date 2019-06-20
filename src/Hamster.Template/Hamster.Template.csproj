@@ -1,19 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Nowisys IT-Service GmbH</Company>
-	<BaseOutputPath>../../build/$(MSBuildProjectName)/bin</BaseOutputPath>
+    <BaseOutputPath>../../build/$(MSBuildProjectName)/bin</BaseOutputPath>
     <BaseIntermediateOutputPath>../../build/$(MSBuildProjectName)/obj</BaseIntermediateOutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>../../build/Hamster.Template/bin\Debug</OutputPath>
+    <OutputPath>../../build/$(MSBuildProjectName)/bin/Debug</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Hamster.Plugin">
-      <HintPath>..\..\..\Hamster.Plugin\build\Hamster.Plugin\bin\Debug\netstandard2.0\Hamster.Plugin.dll</HintPath>
+      <HintPath>..\..\..\Hamster\build\Hamster.Plugin\Debug\netstandard2.0\Hamster.Plugin.dll</HintPath>
     </Reference>
   </ItemGroup>
 
